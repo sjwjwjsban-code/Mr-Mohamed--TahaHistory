@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 3;
+}
+
+button {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 400px;
+}
+
+button:hover {
+    background-color: rgb(50, 50, 63);
+}
+h1,
+h3,
+h4,
+p {
+    margin-bottom: 62px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+.hero-one {
+    font-weight: bold;
+    background-color: #ffffff;
+    color: rgb(1, 1, 1);
+    padding: 33px;
+    border-radius: 33px;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-family: 14px;
+    
+}
+
+.card img{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    width: 240px;
+    height: auto;
+    top: 10;
+    
+    
+    
+    
+}
+
+.cards-container {
+    display: flex;
+    
+
+}
+.page img{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: auto;
+}
+.page-ome{
+    display: flex;
+}
+
+h3,
+h4,
+p {
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+.navbar {
+    background-color: #ffffff;
+    padding: 20px 32px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar h2 {
+    color: #0004e0;
+}
+
+.nav-links {
+    gap: 40px;
+}
+
+.nav-links {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #cccccc
+}
+
+.banner {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    display: block;
+
+}
+
+.banner-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #3c2b2b;
+    max-width: 400px;
+}
+h2{
+    color: #4209ef;
+    font-size: 36px;
+    align-items: center;
+}
+.links img{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 20px;
+        width: 400px;
+        height: auto;
+    
+}
+/* ==== RESPONIVE DESIGN ====*/
+*{
+    box-sizing:border-box;
+
+}
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+    height:auto;
+    /* ==== TABLET ====*/
+}@media (max-width: 900px){
+body{width:100px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}}
+/* ==== MODILE ====*/
+@media(max-width:600px){
+h1{
+    font-size: 28px;
+}
+body{
+    width: 100%;
+    font-size: 16px;
+}
+h2{
+    font-size:22px;
+
+}
+h3{
+    font-size: 19px;
+}
+p{
+    font-size: 16px;
+}}
+/* ==== SMALL MOBILE ====*/
+@media(max-width: 400px){
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+}}
+
