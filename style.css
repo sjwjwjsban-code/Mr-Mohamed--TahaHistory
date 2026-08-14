@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    
     background-color: #ffffff;
     color: #000000;
 }
@@ -152,12 +152,13 @@ h2{
     font-size: 36px;
     align-items: center;
 }
-.links img{
+.links2 img{
         background-color: rgb(255, 255, 255);
         padding: 10px;
         border-radius: 20px;
-        width: 400px;
+        width: 100%;
         height: auto;
+        margin-bottom: 20px;
     
 }
 /* ==== RESPONIVE DESIGN ====*/
@@ -219,4 +220,11 @@ h3{
 p{
     font-size: 15px;
 }}
+.my-video{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    display: block;
+    
+}
 
